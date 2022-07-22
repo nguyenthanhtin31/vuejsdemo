@@ -25,4 +25,5 @@ export default {
 	background: rgb(240, 240, 240);
 	color: black;
 }
+
 </style>

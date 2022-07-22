@@ -15,6 +15,7 @@
 					@change="MARK_COMPLETE(todo.id)"
 				/>
 				<button @click="deleteTodo(todo.id)">Delete</button>
+				
 			</li>
 		</ul>
 		<p v-else style="text-align: center;">Not authorised</p>

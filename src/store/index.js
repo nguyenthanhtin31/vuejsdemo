@@ -2,8 +2,8 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 // Import modules
-import auth from '@/modules/auth'
-import todos from '@/modules/todos'
+import auth from '@/store/modules/auth.js'
+import todos from '@/store/modules/todos.js'
 
 Vue.use(Vuex)
 
